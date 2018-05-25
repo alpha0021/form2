@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form design</title>
+    <link rel="stylesheet" href="file.css">
+    <header>
+      <img style="height:200px;width:200px;" src="img/logo2.png">
+    </header>
+  </head>
+  <body>
+      <form>
+
+        <!--gender-->
+          <p>you are a ....</p>
+          <input type="radio" id="male" name="gender">
+          <label for="male">Male</label><br>
+
+          <input type="radio" id="female"  name="gender">
+          <label for="female">Female</label>
+
+          <!--interests-->
+          <p>you are interested in .....</p>
+          <input type="checkbox" id="web"/>
+          <label for="web">Transtation</label><br>
+          <input type="checkbox" id="photoshop"/>
+          <label for="photoshop">Story Writing</label><br>
+          <input type="checkbox" id="madona"/>
+          <label for="madona">Tribunal Translating</label>
+
+          <!--contact detoails-->
+          <fieldset>
+            <legend>Contact Info</legend>
+            <input type="email" placeholder="Email" required/>
+            <span class="tick"></span>
+            <input type="telephone" placeholder="Phone number" required/>
+            <span class="tick"></span>
+          </fieldset>
+
+
+          <!--preferred-->
+
+          <p>How would you like to be  contacted?</p>
+          <select>
+            <option>By email</option>
+            <option>By telephone</option>
+          </select>
+
+          <input type="submit" value="Submit">
+
+      </form>
+  </body>
+</html>
